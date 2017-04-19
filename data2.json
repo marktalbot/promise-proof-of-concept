@@ -1,3 +1,344 @@
-{
-    "hello": "world"
-}
+[
+  {
+    "_id": "58f6ab0a38b52a5c6527b813",
+    "index": 0,
+    "guid": "95bb2352-729f-4f23-a751-1aa050e4b7d2",
+    "isActive": false,
+    "balance": "$3,179.38",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Lynch",
+      "last": "Mendoza"
+    },
+    "company": "COMCUR",
+    "email": "lynch.mendoza@comcur.ca",
+    "phone": "+1 (922) 430-2276",
+    "address": "311 Erasmus Street, Matthews, Missouri, 7170",
+    "about": "Aute voluptate velit nulla pariatur ut sint do minim voluptate nostrud. Ut voluptate sunt incididunt duis Lorem ex dolore fugiat deserunt minim eu laboris. Consequat laboris reprehenderit amet voluptate laborum anim laboris eu quis pariatur amet exercitation excepteur exercitation. Qui nostrud nulla reprehenderit reprehenderit reprehenderit tempor. Duis amet id laboris officia enim consequat occaecat voluptate.",
+    "registered": "Tuesday, September 23, 2014 12:30 AM",
+    "latitude": "-33.790979",
+    "longitude": "-111.053716",
+    "tags": [
+      "laborum",
+      "laborum",
+      "eu",
+      "voluptate",
+      "dolore"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mercedes Carney"
+      },
+      {
+        "id": 1,
+        "name": "Sheila Aguirre"
+      },
+      {
+        "id": 2,
+        "name": "Colon Bright"
+      }
+    ],
+    "greeting": "Hello, Lynch! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58f6ab0a04b5ea64451b76b6",
+    "index": 1,
+    "guid": "d5ec92f1-f1fa-4f46-b850-6ec7cd1a8750",
+    "isActive": true,
+    "balance": "$2,350.97",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "green",
+    "name": {
+      "first": "Shields",
+      "last": "Nielsen"
+    },
+    "company": "SUPPORTAL",
+    "email": "shields.nielsen@supportal.tv",
+    "phone": "+1 (833) 581-3877",
+    "address": "779 Fillmore Place, Wintersburg, Alabama, 4235",
+    "about": "Commodo ipsum deserunt occaecat cillum. Ut labore consectetur laboris consectetur proident quis minim esse id. Reprehenderit ut excepteur proident sint nisi esse mollit adipisicing. In et consectetur velit pariatur laboris cillum. Cillum ad laborum eu duis deserunt nisi ea non sint non aliquip exercitation. Dolor eu aute magna laborum laborum enim nisi nisi officia non sint pariatur cillum. In quis sunt ea eiusmod consectetur consequat magna non culpa deserunt eu exercitation adipisicing.",
+    "registered": "Saturday, September 17, 2016 6:45 PM",
+    "latitude": "35.637172",
+    "longitude": "-11.188121",
+    "tags": [
+      "nulla",
+      "consectetur",
+      "ea",
+      "occaecat",
+      "excepteur"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Rebekah Branch"
+      },
+      {
+        "id": 1,
+        "name": "Cathryn Hunter"
+      },
+      {
+        "id": 2,
+        "name": "Velasquez Contreras"
+      }
+    ],
+    "greeting": "Hello, Shields! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "58f6ab0a2aa5a30ecd240c89",
+    "index": 2,
+    "guid": "e7b7863e-7a4b-4e12-b74c-175390ee4858",
+    "isActive": false,
+    "balance": "$2,052.49",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Molina",
+      "last": "Gill"
+    },
+    "company": "IDEALIS",
+    "email": "molina.gill@idealis.co.uk",
+    "phone": "+1 (911) 512-3152",
+    "address": "573 Onderdonk Avenue, Osmond, New Jersey, 6354",
+    "about": "Dolore consequat tempor sunt ut minim labore et duis pariatur. Enim do ad proident voluptate officia adipisicing tempor est veniam excepteur labore. Exercitation enim ut officia ut irure voluptate proident. Est esse id adipisicing ex amet commodo occaecat Lorem culpa. In elit anim non qui dolor tempor labore et magna minim voluptate consectetur minim.",
+    "registered": "Sunday, October 12, 2014 11:36 PM",
+    "latitude": "-36.631514",
+    "longitude": "40.84472",
+    "tags": [
+      "magna",
+      "enim",
+      "aliquip",
+      "esse",
+      "magna"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Guthrie Sherman"
+      },
+      {
+        "id": 1,
+        "name": "Macdonald Carlson"
+      },
+      {
+        "id": 2,
+        "name": "Beulah Rocha"
+      }
+    ],
+    "greeting": "Hello, Molina! You have 9 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58f6ab0af69d6ee785f557e8",
+    "index": 3,
+    "guid": "4bc74a52-5842-40a6-aafd-358898f2ffad",
+    "isActive": false,
+    "balance": "$3,729.56",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Owens",
+      "last": "Sheppard"
+    },
+    "company": "TALKALOT",
+    "email": "owens.sheppard@talkalot.us",
+    "phone": "+1 (970) 514-2886",
+    "address": "430 Terrace Place, Torboy, Rhode Island, 293",
+    "about": "Labore cupidatat officia consectetur ex deserunt ut do est cupidatat enim. Duis est consequat incididunt pariatur tempor laboris. Duis ad et est quis laboris culpa excepteur est. Deserunt mollit laborum cupidatat veniam labore cupidatat commodo ad cillum qui.",
+    "registered": "Tuesday, July 19, 2016 5:20 AM",
+    "latitude": "74.506118",
+    "longitude": "-147.1562",
+    "tags": [
+      "enim",
+      "ad",
+      "ad",
+      "non",
+      "ullamco"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ferguson Ruiz"
+      },
+      {
+        "id": 1,
+        "name": "Jenna Melendez"
+      },
+      {
+        "id": 2,
+        "name": "Raquel Shepherd"
+      }
+    ],
+    "greeting": "Hello, Owens! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58f6ab0ac7d9c3570048932b",
+    "index": 4,
+    "guid": "3a59678b-f7ca-47b2-8605-cc29938e9e8d",
+    "isActive": true,
+    "balance": "$3,456.17",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Lorrie",
+      "last": "Dorsey"
+    },
+    "company": "TELEQUIET",
+    "email": "lorrie.dorsey@telequiet.com",
+    "phone": "+1 (929) 428-2178",
+    "address": "554 Dewey Place, Grenelefe, District Of Columbia, 6370",
+    "about": "Est consequat est occaecat enim deserunt nulla aute consectetur elit esse. Aliquip commodo nisi fugiat ex minim sint dolor excepteur duis nulla eiusmod eiusmod. Ut adipisicing est magna cupidatat laboris Lorem nulla. Dolor nostrud cupidatat laboris ad duis. Pariatur pariatur irure tempor incididunt consequat pariatur cupidatat nisi. Ut aliqua in consequat non veniam ipsum qui. In quis sunt duis elit velit deserunt commodo et sint fugiat pariatur pariatur ullamco.",
+    "registered": "Saturday, February 13, 2016 4:01 PM",
+    "latitude": "55.698177",
+    "longitude": "161.306572",
+    "tags": [
+      "aute",
+      "cupidatat",
+      "proident",
+      "aliqua",
+      "aliqua"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Stuart Compton"
+      },
+      {
+        "id": 1,
+        "name": "Estelle Holmes"
+      },
+      {
+        "id": 2,
+        "name": "Montoya Dillon"
+      }
+    ],
+    "greeting": "Hello, Lorrie! You have 5 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "58f6ab0a99645a15a2d3d993",
+    "index": 5,
+    "guid": "330fefae-6bf4-49d6-9a5d-9d24394b49bb",
+    "isActive": false,
+    "balance": "$3,692.25",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Sweet",
+      "last": "Soto"
+    },
+    "company": "TINGLES",
+    "email": "sweet.soto@tingles.io",
+    "phone": "+1 (818) 492-3784",
+    "address": "340 Juliana Place, Konterra, Arkansas, 3456",
+    "about": "Incididunt consequat adipisicing do consectetur excepteur magna ex et. Aliqua enim cillum deserunt aliqua consectetur fugiat laboris. Occaecat incididunt commodo cillum nostrud. Labore dolore culpa ullamco nostrud proident incididunt nisi. Dolor id aliquip do tempor sunt et cillum aliquip labore eiusmod magna sint. Elit aliqua sit amet deserunt duis et enim nostrud sit ipsum. Et ut ex incididunt velit deserunt ad.",
+    "registered": "Thursday, May 14, 2015 7:03 AM",
+    "latitude": "-43.048624",
+    "longitude": "-61.079882",
+    "tags": [
+      "aliquip",
+      "reprehenderit",
+      "eu",
+      "amet",
+      "dolor"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Tammy Cline"
+      },
+      {
+        "id": 1,
+        "name": "Janine Neal"
+      },
+      {
+        "id": 2,
+        "name": "Willie Pickett"
+      }
+    ],
+    "greeting": "Hello, Sweet! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]

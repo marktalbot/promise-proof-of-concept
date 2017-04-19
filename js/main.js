@@ -8,35 +8,53 @@
 //     .catch(error => console.log(error)
 // );
 
-var gameEngine = axios.get('/data.json');
-var gameServer = axios.get('/data2.json');
-var bad        = axios.get('/data3.json');
+let gameEngine   = axios.get('/data.json');
+let gameServer   = axios.get('/data2.json');
+// let bad          = axios.get('/data3.json');
+let gameServerFn = (url) => {
+    return axios.get(url);
+};
 
 // Option #1
 // ----------------------------------------------------------- //
-Promise.all([gameEngine, gameServer, bad])
-    .then(values => {
-        [one, two] = values;
-        console.log(one.data, two.data);
-    })
-    .catch(error => {
-        console.log('STOP EVERYTHING!', error);
-    }
-);
+// Promise.all([gameEngine, gameServer, bad])
+//     .then(values => {
+//         [one, two] = values;
+//         console.log(one.data, two.data);
+//     })
+//     .catch(error => {
+//         console.log('STOP EVERYTHING!', error);
+//     }
+// );
 
 // Option #2
 // ----------------------------------------------------------- //
+// gameEngine
+//     .then(response => {
+//         console.log('data', response.data);
+//         gameServer.then(response => {
+//             console.log('nested data', response.data);
+//         })
+//         .catch(error => {
+//             console.log('SHOW DISCONNECTED ERROR (game server error)');    
+//         });
+//     })
+//     .catch(error => {
+//         console.log('SHOW BAD TACTIC MODAL (game engine error)');
+//     }
+// );
+
+// Option #3
+// ----------------------------------------------------------- //
 gameEngine
     .then(response => {
-        console.log('data', response.data);
-        gameServer.then(response => {
-            console.log('nested data', response.data);
-        })
-        .catch(error => {
-            console.log('SHOW DISCONNECTED ERROR (game server error)');    
-        });
+        return Promise.all([response, gameServerFn(response.data.url)]);
+    })
+    .then(results => {
+        [one, two] = results;
+        console.log(one.data, two.data);
     })
     .catch(error => {
-        console.log('SHOW BAD TACTIC MODAL (game engine error)');
+        console.log('SHOW CORRECT ERROR MODAL'); // Check error object and serve correct modal based on 'reason' property
     }
 );
