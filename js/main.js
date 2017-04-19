@@ -32,7 +32,7 @@ gameEngine
         gameServer.then(response => {
             console.log('nested data', response.data);
         })
-        .catch(e => {
+        .catch(error => {
             console.log('SHOW DISCONNECTED ERROR (game server error)');    
         });
     })
